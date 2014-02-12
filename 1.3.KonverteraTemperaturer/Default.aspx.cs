@@ -14,5 +14,12 @@ namespace _1._3.KonverteraTemperaturer
         {
 
         }
+
+        protected void ConvertButton_Click(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+            }
+        }
     }
 }

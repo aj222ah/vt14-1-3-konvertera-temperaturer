@@ -50,5 +50,37 @@ table {
 }
 
 /* Generell styling av webbsiten */
+body, #ConvertButton {
+    font-family: Cambria;
+    font-size: 12pt;
+}
+
 body {
+    background-color: gray;
+}
+
+h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#TempConversion {
+    padding: 50px;
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#inputField {
+    width: 500px;
+    padding: 20px;
+}
+
+.inputBox {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 200px;
 }
