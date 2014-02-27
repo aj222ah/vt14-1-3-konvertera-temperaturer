@@ -191,5 +191,14 @@ namespace _1._3.KonverteraTemperaturer {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ConvertButton;
+        
+        /// <summary>
+        /// TemperatureTable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table TemperatureTable;
     }
 }
