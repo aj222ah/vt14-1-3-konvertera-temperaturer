@@ -19,6 +19,25 @@ namespace _1._3.KonverteraTemperaturer
         {
             if (IsValid)
             {
+                var start = int.Parse(StartTemp.Text);
+                var stop = int.Parse(EndTemp.Text);
+                var step = int.Parse(StepSize.Text);
+                var noOfSteps = ((stop - start) / step) + 2;
+                var i = 0;
+
+                int[] temperatures = new int[noOfSteps];
+
+                for (i = 0; i < temperatures.Length; i++)
+                {
+                    if (CtoF.Checked == true)
+                    {
+                        temperatures[i] = Temperature.CelsiusToFahrenheit(start);
+                    }
+                    else
+                    {
+                        temperatures[i] = Temperature.FahrenheitToCelsius(start);
+                    }
+                }
             }
         }
     }

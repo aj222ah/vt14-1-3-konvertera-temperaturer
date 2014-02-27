@@ -5,9 +5,9 @@ using System.Web;
 
 namespace _1._3.KonverteraTemperaturer.Functionality
 {
-    public class Temperature
+    public static class Temperature
     {
-        public int CelciusToFahrenheit(int tempCelcius)
+        public static int CelsiusToFahrenheit(int tempCelcius)
         {
             // Beräkna grader och konvertera till int
             double tempFahrenheit = (tempCelcius * 1.8) + 32;
@@ -16,7 +16,7 @@ namespace _1._3.KonverteraTemperaturer.Functionality
             return roundedTemperature;
         }
 
-        public int FahrenheitToCelsius(int tempFahrenheit)
+        public static int FahrenheitToCelsius(int tempFahrenheit)
         {
             // Beräkna grader och konvertera till int
             double tempCelcius = (tempFahrenheit - 32) * (5 / 9);

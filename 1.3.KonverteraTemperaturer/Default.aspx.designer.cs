@@ -49,6 +49,24 @@ namespace _1._3.KonverteraTemperaturer {
         protected global::System.Web.UI.WebControls.TextBox StartTemp;
         
         /// <summary>
+        /// StartTempRequired control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator StartTempRequired;
+        
+        /// <summary>
+        /// StartTempInt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator StartTempInt;
+        
+        /// <summary>
         /// EndTempLabel control.
         /// </summary>
         /// <remarks>
@@ -67,6 +85,33 @@ namespace _1._3.KonverteraTemperaturer {
         protected global::System.Web.UI.WebControls.TextBox EndTemp;
         
         /// <summary>
+        /// EndTempRequired control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator EndTempRequired;
+        
+        /// <summary>
+        /// EndTempInt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator EndTempInt;
+        
+        /// <summary>
+        /// EndTempHigherThanStartTemp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator EndTempHigherThanStartTemp;
+        
+        /// <summary>
         /// StepSizeLabel control.
         /// </summary>
         /// <remarks>
@@ -83,6 +128,33 @@ namespace _1._3.KonverteraTemperaturer {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox StepSize;
+        
+        /// <summary>
+        /// StepSizeRequired control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator StepSizeRequired;
+        
+        /// <summary>
+        /// StepSizeInt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator StepSizeInt;
+        
+        /// <summary>
+        /// StepSizeInRange control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator StepSizeInRange;
         
         /// <summary>
         /// ConversionType control.

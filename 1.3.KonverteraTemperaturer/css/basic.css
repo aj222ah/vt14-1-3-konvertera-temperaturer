@@ -63,6 +63,7 @@ h1 {
     font-size: 16pt;
     font-weight: bold;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 #TempConversion {
@@ -80,7 +81,12 @@ h1 {
 
 .inputBox {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     margin-top: 5px;
     width: 200px;
+}
+
+#ValidationSummary1, .error {
+    color: red;
+    padding-bottom: 10px;
 }
