@@ -38,11 +38,13 @@
                 
                     <%-- Radiobuttons för omräkningstyp. --%>
                     <br /><asp:Label ID="ConversionType" runat="server" Text="Typ av konvertering:"></asp:Label><br />
-                    <asp:RadioButton ID="CtoF" runat="server" Text="Celsius till Fahrenheit" GroupName="ConversionType" /><br />
-                    <asp:RadioButton ID="FtoC" runat="server" Text="Fahrenheit till Celcius" GroupName="ConversionType" Checked="True" /><br />
+                    <asp:RadioButton ID="CtoF" runat="server" Text="Celsius till Fahrenheit" GroupName="ConversionType" Checked="True" /><br />
+                    <asp:RadioButton ID="FtoC" runat="server" Text="Fahrenheit till Celcius" GroupName="ConversionType" /><br />
                 
                     <%-- Button för att initiera omräkning. --%>
                     <asp:Button ID="ConvertButton" runat="server" Text="Konvertera" CssClass="inputBox" OnClick="ConvertButton_Click" />
+                    
+                    <%-- Tabell för att redovisa resultat. --%>
                     <asp:Table ID="TemperatureTable" runat="server" Visible="False" CssClass="display">
                     </asp:Table>
                 </div>
