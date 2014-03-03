@@ -19,6 +19,7 @@ namespace _1._3.KonverteraTemperaturer
         {
             if (IsValid)
             {
+                // Hämtar (och eventuellt beräknar) inmatade värden
                 var start = int.Parse(StartTemp.Text);
                 var stop = int.Parse(EndTemp.Text);
                 var step = int.Parse(StepSize.Text);
@@ -55,7 +56,7 @@ namespace _1._3.KonverteraTemperaturer
                 } ;
 
                 // Lägg till rad med specifikation
-                TableRow headerRow = new TableRow();
+                TableHeaderRow headerRow = new TableHeaderRow();
 
                 TableCell convertFromCell = new TableCell(); 
                 TableCell convertToCell = new TableCell();

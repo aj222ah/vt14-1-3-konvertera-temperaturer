@@ -19,7 +19,7 @@ namespace _1._3.KonverteraTemperaturer.Functionality
         public static int FahrenheitToCelsius(int tempFahrenheit)
         {
             // Beräkna grader och konvertera till int
-            double tempCelcius = (tempFahrenheit - 32) * (5 / 9);
+            double tempCelcius = (tempFahrenheit - 32.0) * (5.0 / 9.0);
             int roundedTemperature = Convert.ToInt32(Math.Round(tempCelcius, 0, MidpointRounding.ToEven));
 
             return roundedTemperature;
